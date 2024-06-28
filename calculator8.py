@@ -15,7 +15,7 @@ def calculator():
         parts = input_string.split(operator)
 
         if len(parts) != 2:
-            raise ValueError("Неправильный формат ввода")
+            raise ValueError("Неправильный формат ввода11")
 
         a = parts[0].strip()
         b = parts[1].strip()
