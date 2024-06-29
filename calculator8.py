@@ -15,7 +15,7 @@ def calculator(example):
         parts = example.split(operator)
 
         if len(parts) != 2:
-            raise ValueError("throws Exception//Не является математической операцией")
+            raise ValueError("throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)")
 
         a = parts[0].strip()
         b = parts[1].strip()
