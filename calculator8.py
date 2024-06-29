@@ -1,6 +1,5 @@
 def calculator(example):
     try:
-        #input_string = input().strip()
         operators = ['+', '-', '*', '/']
         operator_found = False
 
@@ -15,7 +14,8 @@ def calculator(example):
         parts = example.split(operator)
 
         if len(parts) != 2:
-            raise ValueError("throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)")
+            raise ValueError(
+                "throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)")
 
         a = parts[0].strip()
         b = parts[1].strip()
@@ -42,9 +42,6 @@ def calculator(example):
     except Exception as e:
         return "Ошибка: " + str(e)
 
-
-# result = calculator()
-# print(result)
 
 def main(input_str):
     try:
