@@ -9,7 +9,7 @@ def calculator(example):
                 break
 
         if not operator_found:
-            raise ValueError("Неправильный формат ввода")
+            raise ValueError("throws Exception //т.к. строка не является математической операцией")
 
         parts = example.split(operator)
 
