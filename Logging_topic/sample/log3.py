@@ -20,4 +20,4 @@ formatter = logging.Formatter('%(levelname)s (%(asctime)s): %(message)s (Line: %
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-logger.info('Давай протестируем файл на данные?')
+logger.info('Давай протестируем файл на данные!')

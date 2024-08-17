@@ -1,4 +1,4 @@
-import logg
+import logging
 
 # Настройка базового логгирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -11,7 +11,7 @@ logging.error("Ошибка")
 logging.critical("Критическая ошибка")
 
 
-import logg
+import logging
 
 # Настройка логгирования в файл
 logging.basicConfig(filename='app.log', filemode='w', level=logging.DEBUG, format='%(name)s - %(levelname)s - %(message)s')
